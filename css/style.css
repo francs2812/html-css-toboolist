@@ -2,9 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+/* commit */
+.spunta_verde{
+    color: #6BC3AE;
+    border-radius: 50%;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 2px solid #6BC3AE;
+}
+.spunta_rossa{
+    color: #eb5952;
+    border-radius: 50%;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 2px solid #eb5952;
+}
+.editorial{
+    background-color: #45ABEA;
+}
+.obbiettivi{
+    background-color:#9C72E4 ;
+}
+.recruiting{
+    background-color: #6BC3AE ;
+}
+.mobile{
+    background-color: #f29e33;
+}
+.website{
+    background-color: #d863a1;
+}
+.riquadro{
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 8px;
+}
+.sales{
+    background-color: #b0c926 ;
+}
+.triangolo{
+    font-weight: lighter;
+    font-size: 15px;
 }
 
-
+/* header */
 h1{
     display: inline;
     vertical-align: text-bottom;
@@ -14,4 +58,34 @@ h1{
 div{
  display: inline;
 }
-   
+
+/* main */
+section{
+    margin: 20px;
+}
+main{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+/* pulsanti */
+.aggiungi{
+    border-radius: 5px;
+    padding: 5px;
+}
+.task{
+    background-color: #47ADF1;
+    color: white;
+}
+.sezione{
+    border: 2px solid #E0E3E6;
+    color: #E0E3E6;
+}
+/* lista */
+dd{
+    margin: 20px;
+}
+
+dt{
+    font-size: 25px;
+    font-weight: bold;
+}
